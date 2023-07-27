@@ -1,0 +1,11 @@
+.modal .modal-dialog .modal-header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.modal .modal-dialog .modal-body label {
+    font-weight: 600;
+    font-weight: 18px;
+    margin-bottom: 15px;
+}

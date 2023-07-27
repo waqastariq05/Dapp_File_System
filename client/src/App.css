@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+    --purple: rgb(204, 0, 255);
+    --dark-purple: rgb(130, 6, 146);
+    --black: #242d49;
+    --bg-purple: rgba(156, 0, 218, 0.377);
+}
+
+.pad-56 {
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+}
+
+.App {
+    font-family: "open sans";
+    font-weight: 600;
+    color: var(--black);
+    background-color: var(--bg-purple);
+    height: 100vh;
+}
+
+a:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus,
+input:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+}
+
+textarea:focus,
+textarea:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+}
+
+.btn {
+    background: var(--purple);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 10px 30px 10px 30px;
+}
+
+.btn:hover {
+    transition: 0.4s ease;
+    background: var(--dark-purple);
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:focus-visible {
+    color: #fff;
+    background: var(--dark-purple);
+    box-shadow: none;
+}
+
+.btn:active {
+    background: var(--dark-purple);
+}

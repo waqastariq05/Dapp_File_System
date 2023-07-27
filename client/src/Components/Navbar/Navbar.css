@@ -1,0 +1,11 @@
+.navbar {
+    padding: 10px 30px;
+}
+
+.navbar .navbar-brand {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}

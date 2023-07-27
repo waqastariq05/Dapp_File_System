@@ -1,0 +1,56 @@
+.banner {
+    padding-top: 20px;
+}
+
+.banner .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.banner .top h2 {
+    font-size: 65px;
+    font-family: 'Alkatra';
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+.banner .top h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
+
+.banner .top h3 span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222;
+    margin-left: 10px;
+}
+
+.banner .row {
+    gap: 40px;
+    padding: 20px 20px 40px;
+}
+
+.banner .dataBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.banner .dataBox div {
+    width: 35%;
+    text-align: center;
+}
+
+.banner .dataBox input {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
